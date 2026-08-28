@@ -643,15 +643,15 @@
     <div class="acc-panel"><p>Each figure was reconciled cell by cell against the appendix workbook and independently confirmed with the Lancaster Stats Tools (Brezina, 2018) and with Kimi, providing a complete verification trail for replication.</p></div>
   </div>
 
-  <h4 style="margin:30px 0 12px; font-size:13px; font-weight:800; color:var(--indigo); text-transform:uppercase; letter-spacing:0.08em;">Interpretation — objectives &amp; research questions</h4>
+  <h4 style="margin:30px 0 12px; font-size:13px; font-weight:800; color:var(--indigo); text-transform:uppercase; letter-spacing:0.08em;">Interpretation — the four specific objectives</h4>
 
   <div class="acc-item">
-    <button class="acc-btn" aria-expanded="false"><span>What is the overall pattern of metadiscourse use? (RQ1)</span><span class="acc-chev" aria-hidden="true">▾</span></button>
+    <button class="acc-btn" aria-expanded="false"><span>What is the overall pattern of metadiscourse use? (Objective 1)</span><span class="acc-chev" aria-hidden="true">▾</span></button>
     <div class="acc-panel"><p>Textual metadiscourse dominates in every discipline (989 occurrences against 664; a roughly 60/40 split). Logical markers are by far the largest category (569, about 34&nbsp;%), whereas endophoric markers are the rarest (18). Crucially, the 60/40 balance does not differ significantly across disciplines (<em>p</em> = .090), so all six share the same global profile.</p></div>
   </div>
 
   <div class="acc-item">
-    <button class="acc-btn" aria-expanded="false"><span>Does metadiscourse use vary by discipline? (RQ2)</span><span class="acc-chev" aria-hidden="true">▾</span></button>
+    <button class="acc-btn" aria-expanded="false"><span>Does metadiscourse use vary by discipline? (Objective 2)</span><span class="acc-chev" aria-hidden="true">▾</span></button>
     <div class="acc-panel"><p>Yes, but modestly. The variation is statistically significant (χ²(40) = 153.57) yet the effect is small (Cramér’s V = .137), and the traditional soft/hard divide is not reproduced (BF₀₁ = 12.1, strong evidence for its absence). The differences reside in a few rhetorical functions rather than in a different repertoire — <em>the same spine, with different accents</em>.</p></div>
   </div>
 
@@ -671,7 +671,7 @@
   </div>
 
   <div class="acc-item">
-    <button class="acc-btn" aria-expanded="false"><span>Why does this matter for teaching and AI literacy? (RQ3 / Objective 4)</span><span class="acc-chev" aria-hidden="true">▾</span></button>
+    <button class="acc-btn" aria-expanded="false"><span>Why does this matter for teaching and AI literacy? (Objectives 3 and 4)</span><span class="acc-chev" aria-hidden="true">▾</span></button>
     <div class="acc-panel"><p>Recent work shows that large language models produce fluent but rhetorically flat, disengaged metadiscourse; this corpus supplies the human benchmark such studies lack. The findings are translated into the Academic Writing Journey app — a marker explorer, discipline comparison, guided rewriting and AI-output critique — whose aim is AI literacy: enabling students to use these tools critically rather than blindly.</p></div>
   </div>
 </section>
@@ -973,7 +973,7 @@
       <div>
         <p style="margin:0 0 10px;"><strong>Statistical computation.</strong> All inferential statistics reported in this study were computed with <strong>Kimi</strong> (Moonshot AI, 2026), an AI computational assistant used as the statistical-analysis environment, which acted solely as a creator and executor of <strong>Python 3</strong> code for every procedure — normalisation, contingency-table tests (χ² and log-likelihood), Cramér's V and Log-Ratio effect sizes, Wilson and Newcombe confidence intervals, Monte-Carlo simulation, Bayesian (Bayes-factor) re-analysis, and the dispersion measures (DP, Juilland's D). The tool ran under short, fully specified instructions naming the test, formula, input matrix and output format; every analytical decision — which tests to run, which significance thresholds and corrections to apply — was taken by the author and fixed in advance. This AI-assisted workflow follows Pérez-Paredes's (2026) argument that AI can support corpus analysis provided the process stays transparent and reproducible.</p>
         <p style="margin:0 0 10px;"><strong>Independent verification.</strong> Every value was cross-checked by non-AI means: dispersion against the <strong>Lancaster Stats Tools online</strong> calculator (Brezina, 2018) — all ten categories matched — the standard deviation against the Pearson online calculator, and a cell-by-cell reconciliation against the unified corpus workbook. No result enters the thesis unless it reproduces exactly from the raw marker counts.</p>
-        <p style="margin:0;"><strong>Human authorship.</strong> The research questions, corpus design and selection, metadiscourse annotation decisions, interpretation of the results, and the writing of the thesis are the author's own. AI was used as a computational and tagging aid, not to generate findings or arguments. Corpus tagging used <strong>METOOL</strong> (Carrió-Pastor, 2020); the animated results overview was produced with a motion-graphics AI tool (Easy Motion AI, 2026); this interactive data book was built with an AI coding assistant. All uses are disclosed here for full transparency and responsible, ethical Human–AI collaboration.</p>
+        <p style="margin:0;"><strong>Human authorship.</strong> The objectives, corpus design and selection, metadiscourse annotation decisions, interpretation of the results, and the writing of the thesis are the author's own. AI was used as a computational and tagging aid, not to generate findings or arguments. Corpus tagging used <strong>METOOL</strong> (Carrió-Pastor, 2020); the animated results overview was produced with a motion-graphics AI tool (Easy Motion AI, 2026); this interactive data book was built with an AI coding assistant. All uses are disclosed here for full transparency and responsible, ethical Human–AI collaboration.</p>
       </div>
     </div>
   </section>
@@ -1876,7 +1876,7 @@ const STATS = {
   {
    "proc": "Deviation of proportions (DP; Gries, 2008)",
    "status": "Executed at subcorpus level (n = 6); per-text (n = 180) pre-registered",
-   "why": "Per-text dispersion answers a different question than RQ1–RQ3; needs a 10 × 180 per-abstract matrix not yet built. Reserved for the follow-up study."
+   "why": "Per-text dispersion answers a different question from the four specific objectives; needs a 10 × 180 per-abstract matrix not yet built. Reserved for the follow-up study."
   },
   {
    "proc": "Juilland's D (Juilland & Chang-Rodríguez, 1964); coverage %",
@@ -1886,7 +1886,7 @@ const STATS = {
   {
    "proc": "Kruskal–Wallis; pairwise Mann–Whitney with FDR",
    "status": "NOT executed — pre-registered",
-   "why": "Planned per-text corroboration; the aggregate tests already answer the RQs. Requires the same 10 × 180 matrix; accompanies the larger re-tagged corpus."
+   "why": "Planned per-text corroboration; the aggregate tests already answer the specific objectives. Requires the same 10 × 180 matrix; accompanies the larger re-tagged corpus."
   }
  ]
 };
